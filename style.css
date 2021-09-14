@@ -2,6 +2,17 @@ background {
   color: #d94e4e;
 }
 
+.timerbox {
+  display: box;
+}
+
+.timer {
+  font-size: 40px;
+}
+.start {
+  color: white;
+}
+
 @font-face {
   font-family: "ArialRounded";
   font-display: swap;
@@ -69,13 +80,14 @@ li {
   margin: 12px 0px;
 }
 
-footer {
+.footer {
   margin-top: 40px;
   border-top: 2px solid #efefef;
   text-align: center;
   padding-top: 30px;
   color: hsl(357, 12%, 42%);
   padding-bottom: 20px;
+  font-family: "ArialRounded";
 }
 .spinner__wrapper {
   display: flex;
@@ -85,4 +97,21 @@ footer {
   width: 100%;
   /* background-color: hsl(2, 84%, 64%); */
   background-color: hsl(2, 66%, 58%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #d94e4e;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
