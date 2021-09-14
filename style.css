@@ -3,14 +3,28 @@ background {
 }
 
 button {
-  width: auto;
-  height: auto;
-  color: #fff;
+  border: none;
+  margin: 20px 0px 0px;
+  padding: 0px 15px;
   border-radius: 5px;
-  padding: 10px 25px;
-  font-family: "geneva", sans-serif;
-  font-weight: 500;
-  cursor: pointer;
+  box-shadow: rgb(235 235 235) 0px 6px 0px;
+  font-family: "Varela Round", sans-serif;
+  font-size: 22px;
+  height: 50px;
+  font-weight: bold;
+  width: 200px;
+  background-color: white;
+}
+
+.text {
+  color: white;
+  font-weight: bold;
+}
+
+.textbox {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: none;
+  border-radius: 5px;
 }
 
 .timerbox {
@@ -29,14 +43,36 @@ button {
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 5px;
   width: 600px;
+  align-items: center;
+  justify-content: center;
 }
 
+.timerboxtext ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.timerboxtext li {
+  display: inline-block;
+  margin: 0 5px;
+  color: white;
+  padding: 8px 10px;
+}
+
+.timerboxtext button {
+  align-self: center;
+  justify-self: center;
+}
 .timerboxtext h3 {
   color: white;
+  align-self: center;
+  justify-self: center;
 }
 
 .timer {
-  font-size: 40px;
+  font-size: 102px;
 }
 .start {
   color: white;
@@ -111,7 +147,7 @@ h1,
 h2,
 h3,
 h4 {
-  color: hsl(357, 50%, 22%);
+  color: #8c3e3e;
   margin-top: 1.8rem;
   margin-bottom: 0em;
 }
@@ -132,7 +168,7 @@ ol {
 
 li {
   line-height: 1.6rem;
-  color: hsl(357, 12%, 42%);
+  color: #403232;
   margin: 12px 0px;
 }
 
@@ -141,7 +177,7 @@ li {
   border-top: 2px solid #efefef;
   text-align: center;
   padding-top: 30px;
-  color: hsl(357, 12%, 42%);
+  color: #403232;
   padding-bottom: 20px;
   font-family: "Varela Round", sans-serif;
 }
